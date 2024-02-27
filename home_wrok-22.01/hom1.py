@@ -55,7 +55,7 @@ if name == "main":
         "country": "Казахстан", 
     }
 
-    ELAMAN_CLASS = Human(**ADAM_ATTRIBUTES)
+    ADAM_CLASS = Human(**ADAM_ATTRIBUTES)
     HUMAN_CLASS = Human(**HUMAN_ATTRIBUTES)
     print(HUMAN_CLASS.get_class_attributies())
     print(HUMAN_CLASS.get_class_attributies())
